@@ -1,0 +1,70 @@
+
+@media (min-width:1281px){
+    .post-pic{
+        width: 120px;
+    }
+    
+
+}
+
+@media (min-width:320px){
+    .post-pic{
+        width: 120px;
+    }
+
+}
+
+.post-writer{
+    justify-content: center;
+    text-align: center;
+   margin-top: 34px;
+   margin-left: 12px;
+   color: black;
+}
+a{
+    text-decoration: none !important;
+}
+a:hover{
+    text-decoration: none;
+}
+.circle-force{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .mind-pic{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    object-position: center;
+
+  }
+
+  .ph-title{
+      font-weight: 700px !important;
+      color: #138496;
+  }
+  .text-feed{
+    color: grey;
+    text-align: center;
+    align-items: center;
+
+  }
+
+  .main-textt{
+      font-weight: 700 !important;
+      font-size: 1.8rem;
+      color: white !important;
+      margin-bottom: -8px !important;
+  }
+
+  .news-card{
+      background: #1cafc5 !important;
+ 
+  }

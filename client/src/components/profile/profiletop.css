@@ -1,0 +1,25 @@
+.mmg{
+  width: 100%
+}
+
+.activee{
+  width: 25%
+
+}
+.indicatorman{
+  right: 476px;
+  left: 0px;
+}
+.indicatorman2{
+  right: 476px;
+  left: 0px;
+}
+
+.circle-forced{
+  border-radius: 50%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}

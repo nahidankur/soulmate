@@ -1,0 +1,33 @@
+
+@media (min-width:1281px){
+    .post-pic{
+        width: 80px;
+    }
+    
+
+}
+
+@media (min-width:320px){
+    .post-pic{
+        width: 70px;
+    }
+
+}
+
+.post-writer{
+    justify-content: center;
+    text-align: center;
+   margin-top: 34px;
+   margin-left: 12px;
+   color: black;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.cd-pdd{
+    margin-top: -30px;
+}
