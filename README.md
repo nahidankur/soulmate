@@ -1,6 +1,6 @@
 # soul-mate
 
-`Soul Mate` is a social web application made with `React`, `Node`, `Redux`, `react-redux` & `Bootstrap`
+`Soul Mate` is a social web application made with `React`, `Node`, `Mongodb`, `Express`, `Redux`, `react-redux` & `Bootstrap`
 
 # App description:
 Any user can create an account and they can also create there own social profile including their perosnal information. He can also create post, remove his own post, upload profile picture and there is also `like-comment` feature like facebook or other social media apps. 
