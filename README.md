@@ -12,7 +12,7 @@ For better experience use `Desktop` mode while browsing.
 Future update will be released soon.
 
 Live Preview is availbale here:
-https://soul-mate-v3.herokuapp.com
+https://soul-mate-v2.herokuapp.com
 
 # Note:
 The application is only made for educational perposes. Any commercial use of this application will not be allowed.
