@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# soul-mate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+`Soul Mate` is a social web application made with `React`, `Node`, `Redux`, `react-redux` & `Bootstrap`
 
-## Available Scripts
+# App description:
+Any user can create an account and they can also create there own social profile including their perosnal information. He can also create post, remove his own post, upload profile picture and there is also `like-comment` feature like facebook or other social media apps. 
 
-In the project directory, you can run:
+The application may not be responsive in all mobile devices as it's a initial relesase. 
 
-### `npm start`
+For better experience use `Desktop` mode while browsing.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Future update will be released soon.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[Live Preview Availbale](https://soulmate-v2.herokuapp.com)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Installation Guide 🚀
 
-### `npm run build`
+### Install the dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Install client dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+cd client
+npm install
+```
 
-### `npm run eject`
+### Run both Express & React from root
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+npm run dev
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Build for production
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+cd client
+npm run build
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Test production before deploy
 
-## Learn More
+After running a build in the client 👆, cd into the root of the project.  
+And run...
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Linux/Unix 
+```bash
+NODE_ENV=production node server.js
+```
+Windows Cmd Prompt or Powershell 
+```bash
+$env:NODE_ENV="production"
+node server.js
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Check in browser on [http://localhost:5000/](http://localhost:5000/)
 
-### Code Splitting
+## App Info
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Author
 
-### Analyzing the Bundle Size
+Nahid Karim Ankur
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Version
 
-### Making a Progressive Web App
+1.0.0
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### License
 
-### Advanced Configuration
+This project is licensed under the MIT License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Note:
+The application is only made for educational perposes. Any commercial use of this application will not be allowed.
+If you like the project please give a star. If there is any issue you face , you can send pull request, I will fix as soon as possible.
