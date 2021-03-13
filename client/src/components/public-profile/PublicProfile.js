@@ -12,12 +12,20 @@ const PublicProfile = ({getProfileById, profile: {profile, loading}, auth, match
         getProfileById(match.params.id)
     }, [getProfileById, match.params.id])
     return (
-        <Fragment>
-            {profile === null || loading ? <Spinner/> : <Fragment>
-            <ProfileTop profile={profile} />
+                <Fragment>
+        {profile === null && loading ? <Spinner/> : <Fragment> 
+            {
+                profile !== null ? ( < ProfileTop profile= {profile} />) : (<Fragment>
+                    <h2>It's look like this user does not have a profile</h2>
+                    <br/>
+                    <Link to='/newsfeed' className='btn btn-success'>Go Back to Newsfeed</Link>
+                    </Fragment>)
+            }
+       
+        
 
-            </Fragment>}
-        </Fragment>
+        </Fragment>}
+    </Fragment>
     )
 }
 
